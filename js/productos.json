@@ -7,7 +7,7 @@
             "nombre": "Abrigos",
             "id": "abrigos"
         },
-        "precio": 1000
+        "precio": 23000
     },
     {
         "id": "abrigo-02",
@@ -17,7 +17,7 @@
             "nombre": "Abrigos",
             "id": "abrigos"
         },
-        "precio": 1000
+        "precio": 17000
     },
     {
         "id": "abrigo-03",
@@ -27,7 +27,7 @@
             "nombre": "Abrigos",
             "id": "abrigos"
         },
-        "precio": 1000
+        "precio": 20000
     },
     {
         "id": "abrigo-04",
@@ -37,7 +37,7 @@
             "nombre": "Abrigos",
             "id": "abrigos"
         },
-        "precio": 1000
+        "precio": 30000
     },
     {
         "id": "abrigo-05",
@@ -47,7 +47,7 @@
             "nombre": "Abrigos",
             "id": "abrigos"
         },
-        "precio": 1000
+        "precio": 25000
     },
     {
         "id": "camiseta-01",
@@ -57,7 +57,7 @@
             "nombre": "Camisetas",
             "id": "camisetas"
         },
-        "precio": 1000
+        "precio": 12000
     },
     {
         "id": "camiseta-02",
@@ -67,7 +67,7 @@
             "nombre": "Camisetas",
             "id": "camisetas"
         },
-        "precio": 1000
+        "precio": 15000
     },
     {
         "id": "camiseta-03",
@@ -77,7 +77,7 @@
             "nombre": "Camisetas",
             "id": "camisetas"
         },
-        "precio": 1000
+        "precio": 9500
     },
     {
         "id": "camiseta-04",
@@ -87,7 +87,7 @@
             "nombre": "Camisetas",
             "id": "camisetas"
         },
-        "precio": 1000
+        "precio": 10000
     },
     {
         "id": "camiseta-05",
@@ -97,7 +97,7 @@
             "nombre": "Camisetas",
             "id": "camisetas"
         },
-        "precio": 1000
+        "precio": 8700
     },
     {
         "id": "camiseta-06",
@@ -107,7 +107,7 @@
             "nombre": "Camisetas",
             "id": "camisetas"
         },
-        "precio": 1000
+        "precio": 13500
     },
     {
         "id": "camiseta-07",
@@ -117,7 +117,7 @@
             "nombre": "Camisetas",
             "id": "camisetas"
         },
-        "precio": 1000
+        "precio": 17500
     },
     {
         "id": "camiseta-08",
@@ -127,7 +127,7 @@
             "nombre": "Camisetas",
             "id": "camisetas"
         },
-        "precio": 1000
+        "precio": 14000
     },
     {
         "id": "pantalon-01",
@@ -137,7 +137,7 @@
             "nombre": "Pantalones",
             "id": "pantalones"
         },
-        "precio": 1000
+        "precio": 19000
     },
     {
         "id": "pantalon-02",
@@ -147,7 +147,7 @@
             "nombre": "Pantalones",
             "id": "pantalones"
         },
-        "precio": 1000
+        "precio": 23600
     },
     {
         "id": "pantalon-03",
@@ -157,7 +157,7 @@
             "nombre": "Pantalones",
             "id": "pantalones"
         },
-        "precio": 1000
+        "precio": 45000
     },
     {
         "id": "pantalon-04",
@@ -167,7 +167,7 @@
             "nombre": "Pantalones",
             "id": "pantalones"
         },
-        "precio": 1000
+        "precio": 30000
     },
     {
         "id": "pantalon-05",
@@ -177,6 +177,6 @@
             "nombre": "Pantalones",
             "id": "pantalones"
         },
-        "precio": 1000
+        "precio": 35000
     }
 ]
