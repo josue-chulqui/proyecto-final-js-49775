@@ -10,6 +10,7 @@
 
 ul {
     list-style-type: none;
+    width: 100%;
 }
 
 a {
@@ -25,22 +26,24 @@ a {
 
 header{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
+
 .logo {
-    font-weight: 400;
-    font-size: 1.3rem;
+    font-weight: 700;
+    font-size: 2.3rem;
+    padding: 2rem;
 }
 
 footer {
     padding: 3rem;
 }
 .boton-menu {
-    background-color: rgb(192, 0, 0);
-    color: #ccc;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -48,13 +51,18 @@ footer {
     gap: 1rem;
     font-size: .85rem;
     width: 5rem;
+    width: max-content;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: .5rem .5rem 1rem #636262;
 }
 
 .boton-menu.active {
     
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-radius: 5px;
+    padding: 1rem;
     position: relative;
+    width: max-content;
 }
 
 .boton-menu.active::before {
@@ -87,7 +95,7 @@ footer {
 }
 
 .boton-carrito {
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .numerito {

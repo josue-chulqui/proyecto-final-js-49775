@@ -80,8 +80,8 @@ function eliminarDelCarrito(e) {
         position: "right", // `left`, `center` or `right`
         stopOnFocus: true, // Prevents dismissing of toast on hover
         style: {
-          background: "linear-gradient(to right, #4b33a8, #785ce9)",
-          borderRadius: "2rem",
+            background: "linear-gradient(to right, rgb(0, 0, 0), #eee",
+          
           textTransform: "uppercase",
           fontSize: ".75rem"
         },
@@ -130,6 +130,13 @@ function actualizarTotal() {
 
 botonComprar.addEventListener("click", comprarCarrito);
 function comprarCarrito() {
+    Swal.fire({
+        position: "center",
+        icon: "success",
+        title: "Gracias por su compra!!!🛒😊",
+        showConfirmButton: false,
+        timer: 1500
+      });
 
     productosEnCarrito.length = 0;
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
