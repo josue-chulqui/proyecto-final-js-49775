@@ -11,6 +11,11 @@
 ul {
     list-style-type: none;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    padding: 2rem;
+
 }
 
 a {
@@ -89,8 +94,8 @@ footer {
    
 }
 
-.boton-menu > i.bi-hand-index-thumb-fill,
-.boton-menu > i.bi-hand-index-thumb {
+.boton-menu  i.bi-hand-index-thumb-fill,
+.boton-menu  i.bi-hand-index-thumb {
     transform: rotateZ(90deg);
 }
 
@@ -102,6 +107,7 @@ footer {
     color:rgb(0, 0, 0);
     padding: .15rem .25rem;
     border-radius: .25rem;
+    font-weight: 600;
 }
 
 .boton-carrito.active .numerito {
@@ -184,6 +190,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    height: 20rem;
 }
 
 .carrito-vacio,
@@ -231,13 +238,18 @@ main {
 
 .carrito-acciones-vaciar {
     border: 0;
+    font-weight: 600;
     background-color:#eee;
     padding: 1rem;
-    border-radius: 1rem;
+    border-radius: 2px;
     color: #000000;
     text-transform: uppercase;
     cursor: pointer;
     box-shadow: .5rem .5rem 1rem #ccc;
+}
+.carrito-acciones-vaciar:hover{
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .carrito-acciones-derecha {
@@ -263,7 +275,10 @@ main {
     border-radius: .5;
     box-shadow: .5rem .5rem 1rem #929292;
 }
-
+.carrito-acciones-comprar:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
 .close-menu {
     display: none;
 }
